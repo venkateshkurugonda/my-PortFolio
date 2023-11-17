@@ -1,0 +1,199 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+.navigationbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+.navbar-left {
+  padding-left: 1vw;
+}
+.logo {
+  height: 3vw;
+  border-radius: 50%;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  padding-right: 1.5vw;
+}
+.navbar-right > a {
+  font-size: 1.5vw;
+  padding-right: 2vw;
+  color: goldenrod;
+  font-weight: 600;
+  text-decoration: none;
+}
+.name {
+  font-size: 3.5vw;
+  font-family: sans-serif;
+}
+first_name {
+  color: goldenrod;
+}
+.qual-list > li {
+  display: inline;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+.about {
+  padding-top: 10vh;
+  font-size: x-large;
+  line-height: 4.7vh;
+  font-family: sans-serif;
+}
+.home {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-left {
+  padding-left: 8vw;
+  width: 50vw;
+}
+.home-right {
+  padding-right: 8vw;
+}
+.profile-pic {
+  height: 50vh;
+  width: 15vw;
+  border-radius: 10%;
+}
+.my-cv {
+  margin-top: -4vh;
+  padding-left: 8vw;
+}
+#cv {
+  width: 8vw;
+  height: 6vh;
+  background-color: goldenrod;
+}
+#cv > a {
+  font-size: 1.2vw;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Ubutu" sans-serif;
+  color: black;
+}
+.edu-h1 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3vw;
+  padding-top: 15vh;
+  color: aliceblue;
+}
+.edu-table {
+  text-align: center;
+  padding-top: 8vh;
+}
+.table,
+th,
+tr,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: larger;
+  border: 0.2vw solid goldenrod;
+  border-collapse: collapse;
+}
+th {
+  color: goldenrod;
+  background-color: black;
+}
+.table {
+  height: 50vh;
+  width: 80vw;
+  margin-bottom: 8vh;
+}
+.space {
+  height: 10vh;
+}
+.skills {
+  text-align: center;
+}
+.ski-h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3vw;
+  padding-bottom: 8vh;
+  color: aliceblue;
+}
+.skills-sub-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills-card {
+  width: 50vw;
+}
+.sc-h1 {
+  font-weight: 600;
+  color: goldenrod;
+}
+.sc-p {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 400;
+  font-size: 1.5vw;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 4.5vh;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+.dsa-img {
+  height: 20vh;
+  padding: 6vh;
+  padding-left: 17vw;
+}
+.wd-img {
+  height: 20vh;
+  padding: 6vh;
+  padding-right: 17vw;
+  width: 30vh;
+}
+.Host1,
+.Host2 {
+  font-size: x-large;
+  text-decoration: none;
+  color: goldenrod;
+}
+.host-links {
+  display: flex;
+  justify-content: space-between;
+}
+.Host1 {
+  margin-top: 4vh;
+  padding-left: 19vw;
+}
+.Host2 {
+  margin-top: 4vh;
+  padding-right: 20vw;
+}
+.contact {
+  margin-top: 7vh;
+  padding: 4vw;
+  text-align: center;
+}
+.con-h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.email {
+  font-size: 22px;
+  padding-left: 20px;
+  text-align: center;
+}
+.mobile {
+  font-size: 22px;
+  margin-bottom: 60vh;
+}
+v {
+  font-weight: 600;
+}
