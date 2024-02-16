@@ -3,160 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Port-Folio</title>
+    <title>Port-folio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="navigationbar">
-      <div class="navbar-left">
-        <!-- <h1>logo here</h1> -->
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlbma2iaNpAKNFf2d_b6XnB4bE-gwcE21d9w&usqp=CAU"
-          alt="logo"
-          class="logo"
-        />
+    <div class="nav-bar">
+      <div class="nav-items">
+        <a href="#about"><span>About</span></a>
       </div>
-      <div class="navbar-right">
-        <a href="#Home">Home</a>
-        <a href="#Education">Education</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
+      <div class="nav-items">
+        <a href="#skills"><span>Skills</span></a>
+      </div>
+      <div class="nav-items">
+        <a href="#projects"><span>Projects</span></a>
+      </div>
+      <div class="nav-items">
+        <a href="#contact"><span>Contact</span></a>
       </div>
     </div>
-    <div class="home" id="Home">
-      <div class="home-left">
-        <h1 class="name"><first_name>Venkatesh</first_name> Kurugonda</h1>
-        <ul class="qual-list">
-          <li>Problem Solver,</li>
-          <li>Mentor,</li>
-          <li>Quick Learner</li>
-        </ul>
-        <p class="about">
-          I'm <b>Venkatesh Kurugonda</b>, currently based in the vibrant city of
-          <em>Tirupati</em>, India. I'm a dedicated student with a strong
-          passion for Java and web development. I'm currently pursuing my
-          degree, and I've also had the privilege of working as a teaching
-          assistant, contributing to the growth and development of others.
+    <h1 class="main-heading" id="about"><span>Venkatesh</span> Kurugonda</h1>
+    <h3 class="tag-name"><em>frontend developer</em></h3>
+    <div class="main">
+      <div class="about">
+        <p>
+          I'm a dedicated Frontend Developer specializing in crafting
+          captivating user interfaces with React. My expertise goes beyond
+          coding; I bring ideas to life, driven by the joy of seeing concepts
+          evolve into reality. Staying ahead in web technologies, I ensure my
+          work remains cutting edge by embracing current trends. Whether it's
+          creating responsive designs for diverse devices or ensuring the end
+          product aligns with project integrity, I strive for excellence. Let's
+          connect and transform your dream idea into a reality. Explore my
+          portfolio to see projects I'm truly proud of.
         </p>
       </div>
-      <div class="home-right">
+      <div class="profile">
         <img
           class="profile-pic"
-          src="https://res.cloudinary.com/dccvdsyxx/image/upload/v1698387071/venky_kxwswi.jpg"
-          alt="imgae"
+          src="images/profile.jpg"
+          alt="my-profile-pic"
         />
       </div>
     </div>
-    <div class="my-cv">
-      <button id="cv">
-        <a
-          href="https://drive.google.com/file/d/1-P2PkBr3vpof_rqDkIhB_dMNQJ4dQx1c/view?usp=drive_link"
-          target="_blank"
-        >
-          Open CV
-        </a>
-      </button>
-    </div>
-    <div class="education" id="Education">
-      <h1 class="edu-h1">EDUCATION</h1>
-      <div class="edu-table">
-        <table class="table">
-          <tr>
-            <th>Degree/Grade</th>
-            <th>Institution</th>
-            <th>Score</th>
-          </tr>
-          <tr>
-            <td>B.Tech IT</td>
-            <td>Sree Vidyanikethan Engineering College (Tirupati)</td>
-            <td>8.70/10 CGPA [2024]</td>
-          </tr>
-          <tr>
-            <td>Intermediate</td>
-            <td>Narayana Junior College (Tirupati)</td>
-            <td>92.0% [2020]</td>
-          </tr>
-          <tr>
-            <td>Secondary Education (SSC)</td>
-            <td>Narayana High School (Venkatagiri)</td>
-            <td>9.8/10 CGPA [2018]</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div class="space" id="Skills"></div>
-    <div class="skills">
-      <h1 class="ski-h1">SKILLS</h1>
-      <div class="skills-sub-cont">
-        <div class="skills-card">
-          <h1 class="sc-h1">DSA through JAVA</h1>
-          <p class="sc-p">
-            Proficient in implementing and utilizing various data structures and
-            algorithms using Java, with a strong understanding of fundamental
-            concepts.
-          </p>
-        </div>
-        <div class="skills-card">
-          <h1 class="sc-h1">Web Desinging</h1>
-          <p class="sc-p">
-            web designing specializing in creating custom websites that are both
-            visually appealing and user-friendly.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="images">
-      <img class="dsa-img"
-      src="https://res.cloudinary.com/dccvdsyxx/image/upload/v1699867601/211679770-ba6259bb-e87b-4932-b59c-f283d2628d7b_vsd8bw.jpg"">
-      <img
-        class="wd-img"
-        src="https://res.cloudinary.com/dccvdsyxx/image/upload/v1699867801/web-design-technology-browsing-programming-concept_53876-163260_by3hor.avif"
-      />
-    </div>
-    <div class="space" id="Projects"></div>
-    <div class="skills">
-      <h1 class="ski-h1">PROJECTS</h1>
-      <div class="skills-sub-cont">
-        <div class="skills-card">
-          <h1 class="sc-h1">Alarm Clock</h1>
-          <p class="sc-p">
-            Creating a web page with an alarm clock theme would involve
-            designing and implementing a user interface to resemble an alarm
-            clock.
-          </p>
-        </div>
-        <div class="skills-card">
-          <h1 class="sc-h1">IMDB Clone</h1>
-          <p class="sc-p">
-            It aims to replicate the visual design and functionality of the
-            popular Internet Movie Database (IMDb) website.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="host-links">
+
+    <div>
       <a
-        class="Host1"
+        href="https://drive.google.com/file/d/1ToVnVE7PF_6dKwJDyynMgtc3rsNPBfGI/view?usp=sharing"
         target="_blank"
-        href="https://venkateshkurugonda.github.io/alarmclock/"
-        >#View the Project</a
-      >
-      <a
-        class="Host2"
-        target="_blank"
-        href="https://venkateshkurugonda.github.io/imdbclone/"
-        >#View the Project</a
+        class="resume"
+        ><button class="res-btn">Resume</button></a
       >
     </div>
-    <div class="space" id="Contact"></div>
-    <div class="contact">
-      <h1 class="con-h1">CONTACT</h1>
-      <div class="contact-card">
-        <p class="email">
-          <v>E-mail :</v>&nbsp;&nbsp; venkateshkurugonda5@gmail.com
+    <h1 class="skills-heading" id="skills">SKILLS</h1>
+    <div class="skills-imgs">
+      <div class="dsa">
+        <img src="images/java.png" alt="java-logo" class="dsa-img" />
+      </div>
+      <div class="fd">
+        <img src="images/fd.jpg" alt="coding-logo" class="fd-img" />
+      </div>
+    </div>
+    <div class="skills-about">
+      <div>
+        <p class="dsa-about">
+          Proficient in Data Structures and Algorithms through Java, I bring a
+          strong skill set in problem-solving and code optimization to deliver
+          efficient solutions.
         </p>
-        <p class="mobile"><v>Phone :</v>&nbsp;&nbsp;+91 9392397104</p>
+      </div>
+
+      <div>
+        <p class="fd-about">
+          Experienced in frontend development, I bring a versatile skill set to
+          create engaging user interfaces, with a focus on Java for robust
+          backend solutions.
+        </p>
+      </div>
+    </div>
+    <h1 class="skills-heading" id="projects">PROJECTS</h1>
+    <div class="skills-imgs">
+      <div class="dsa">
+        <img src="images/alarm.jpg" alt="alarm-image" class="dsa-img" />
+      </div>
+      <div class="fd">
+        <img src="images/imdb.jpg" alt="coding-logo" class="fd-img" />
+      </div>
+    </div>
+    <div class="skills-about">
+      <div>
+        <p class="dsa-about">
+          Designed and developed a responsive alarm frontend project with
+          intuitive user interfaces, enabling users to effortlessly create,
+          manage, and customize alarms. Implemented real-time updates, calendar
+          integration, and prioritized security for a seamless and secure user
+          experience.
+        </p>
+      </div>
+
+      <div>
+        <p class="fd-about">
+          Crafted an immersive IMDb clone with a user-friendly interface,
+          offering comprehensive movie and TV show information. Implemented
+          features like user reviews, ratings, and search functionality,
+          providing an authentic movie database experience.
+        </p>
+      </div>
+    </div>
+    <h1 class="skills-heading" id="contact">CONTACT</h1>
+    <div class="contact-info">
+      <div class="mail">
+        <a href="mailto:venkateshkurugonda5@gmail.com" target="_blank">
+          <img src="images/mail.jpg" alt="mail-logo" class="mail-logo"
+        /></a>
+      </div>
+      <div class="linkedin">
+        <a
+          href="https://www.linkedin.com/in/venkateshkurugonda/"
+          target="_blank"
+          ><img
+            src="images/linkedin.jpg"
+            alt="linkedin-logo"
+            class="linkedin-logo"
+        /></a>
+      </div>
+      <div class="facebook">
+        <a href="https://www.facebook.com/venkatesh.kurugondla/" target="_blank"
+          ><img src="images/fb.jpg" alt="facebook-logo" class="facebook-logo"
+        /></a>
       </div>
     </div>
   </body>
